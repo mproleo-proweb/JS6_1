@@ -4,8 +4,8 @@ for (let i = 1; i <= 10; i++) {
   let user = new Object();
 
   user.id = i;
-  user.name = prompt(`Foydalanuvchi ${i} ismini kiriting!`);
-  user.age = +prompt(`Foydalanuvchi ${i} yoshini kiriting!`);
+  user.name = prompt(`Foydalanuvchi ${i} ismini kiriting!`, "Name");
+  user.age = +prompt(`Foydalanuvchi ${i} yoshini kiriting!`, "20");
 
   users.push(user);
 }
